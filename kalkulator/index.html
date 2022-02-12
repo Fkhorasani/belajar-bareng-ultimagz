@@ -33,7 +33,7 @@
   </body>
 
   <script>
-    function showresult(choise) {
+    const showresult = (choise) => {
       var n1 = parseFloat(document.getElementById("num1").value);
       var n2 = parseFloat(document.getElementById("num2").value);
       var result;
@@ -59,6 +59,6 @@
           break;
       }
       document.getElementById("result").value = result;
-    }
+    };
   </script>
 </html>
